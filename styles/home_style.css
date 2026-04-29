@@ -1,0 +1,70 @@
+main{
+    margin-top:30px;
+}
+.welcome_card{
+    width : 80%;
+    height: calc(100vh - 120px);
+    background : linear-gradient(135deg, #0B0E17 0%, #131724 100%);
+    border-radius: 30px;
+    border-color: #FF4D00;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.welcome_title{
+    font-family: 'logo_font';
+    color:  #FFFFFF;
+    font-size: 3rem;
+
+}
+
+.welcome_desc{
+    font-size: 1.5rem;
+    color: #A0AABF;
+}
+
+.welcome_img{
+    width: 50%;
+}
+
+.cta_card{
+    width: 60%;
+    height: 15vh;
+    border-radius: 20px;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    background:linear-gradient(135deg, #0B0E17 0%, #131724 100%);
+    padding: 10px;
+    display: flex;
+}
+
+.cta_text{
+    margin-left : 20px;
+}
+.cta_title{
+    font-size:1.5rem;
+}
+.cta_desc{
+    font-size: 1rem;
+}
+
+.view_more_button{
+    background : linear-gradient(135deg, #FF4D00 0%, #CC3D00 100%);
+    padding:20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.view_more_button:hover{
+    background : linear-gradient(135deg, #FF5D00 0%, #CC4D00 100%);
+
+}

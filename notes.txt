@@ -1,0 +1,21 @@
+make color palate map
+news : 
+    news increase big news photo height (done)
+    max 4 cards per row and 2 paddings (done)
+
+home : 
+    Move Crews to About (done)
+    Make CTA in the end of the page (done)
+
+topbar : 
+    replace the h3 with ul list tag (done)
+    links inside the tag nav (done)
+    make ancher image (done)
+
+remove the onload
+
+
+about : 
+    Fix the about sections
+
+replace onclick with listeners

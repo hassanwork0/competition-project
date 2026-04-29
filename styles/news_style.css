@@ -1,0 +1,134 @@
+.welcome_news{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 50px;
+}
+
+
+.big_card{
+    background: #0B0E17;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-color: #FF4D00;
+    border-width: 0.1px;
+    border-style: solid;
+    transition: transform 0.3s ease , border-width 0.1s linear;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    width: 100%;
+
+}
+
+.big_card img{
+    height: 70%;
+    width: 90%;
+    margin: auto;
+}
+
+.big_card .view_more{
+    margin-bottom: 20px;
+}
+.small_card{
+    background: #0B0E17;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-color: #FF4D00;
+    border-width: 0.1px;
+    border-style: solid;
+    transition: transform 0.3s ease , border-width 0.1s linear;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    width: 100%;
+}
+
+
+.news_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_card{
+    background: #0B0E17;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    padding: 5vh;
+    flex-direction: column;
+    border-color: #FF4D00;
+    border-width: 0.1px;
+    border-style: solid;
+    transition: transform 0.3s ease , border-width 0.1s linear;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+
+
+}
+
+.news_card:hover{
+    transform: translateY(-10px);
+    border-width: 2px;
+}
+
+.news_img{
+    width: 30vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.news_date{
+    color: #FF4D00;
+}
+
+.news_title{
+    font-size: 2rem;
+}
+
+.news_desc{
+    color: #A0AABF;
+}
+
+
+.view_more{
+    color: #00BFFF;
+    cursor: pointer;
+    
+}
+.page_news_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+.welcome_img{
+width: 50%;
+height: 50vh;
+}
+
+.page_news_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.page_news_title{
+    font-size: 4rem;
+}
+.page_news_text{
+    font-size: 3.5rem;
+}

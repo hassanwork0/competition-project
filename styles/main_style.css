@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "main_font";
+  font-weight: 400;
+  background: linear-gradient(135deg, #0b0e17 0%, #172656 100%);
+  color: #fff;
+}
+section{
+  margin: 20px
+}
+.section_title {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size:1.8rem;
+  padding-bottom: 60px;
+  padding-top: 60px; 
+}
+
+.seprator{
+  width: 20vh;
+  height: 1vh;
+  background: red;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+@font-face {
+  font-family: "main_font";
+  src: url("../assets/fonts/main_font.ttf");
+}
+
+@font-face {
+  font-family: "logo_font";
+  src: url("../assets/fonts/logo_font.otf");
+}

@@ -1,0 +1,36 @@
+.blogs_list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.blog{
+    width: 90%;
+    height: 15vh;
+    border-radius: 20px;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    background:linear-gradient(135deg, #0B0E17 0%, #131724 100%);
+
+    display: flex;
+}
+
+.blog_text{
+    margin-left : 20px;
+}
+.blog_title{
+    font-size:1.8rem;
+}
+.blog_desc{
+    font-size: 1rem;
+    color:#A0AABF;
+}
+
+.view_more{
+    color: #00BFFF;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 1.3rem;
+}

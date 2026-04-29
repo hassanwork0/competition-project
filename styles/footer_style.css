@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0B0E17;
+}
+
+.footer_img{
+    width: 10vh;
+    margin-left:20px;
+}
+
+.footer_column{
+    margin-right: 20px;
+}
+
+.footer_items{
+    list-style: none;
+}
+
+
+.footer_items li{
+    color:#A0AABF;
+    cursor: pointer;
+}
+.footer_items li:hover{
+    color:#FF4D00;
+}
+
+.footer_title{
+    font-size:1.3rem;
+}
